@@ -1,4 +1,4 @@
-import React, { useState, useContext } from "react";
+import React, { useContext } from "react";
 import "./inc-exp.css";
 import ValueContext from "./ValueContext";
 
