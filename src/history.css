@@ -2,11 +2,13 @@
     margin: auto;
     margin-top: 50px;
     width: 55vw;
+    display: flex;
+    flex-direction: column;
 }
 
-.transaction {
+.transac {
     margin-top: 10px;
     margin-bottom: 10px;
     box-shadow: 1px 1px 5px 5px rgb(194, 192, 192);
-    min-height: 5vh;
+    min-height: 10vh;
 }

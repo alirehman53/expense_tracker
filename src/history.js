@@ -5,19 +5,26 @@ import InputContext from "./InputContext";
 function Trans(props) {
     return ( <
         div key = { props.id }
-        className = { "transaction" }
+        className = { "transac" }
         style = {
             {
                 borderRight: "4px solid " + (props.amount >= 0 ? "green" : "red"),
             }
         } >
         <
-        span style = {
-            { float: "left", paddingLeft: "5px" } } > { " " } { props.description } { " " } <
-        /span>{" "} <
-        span style = {
-            { float: "right", paddingRight: "5px" } } > { " " } { props.amount } { " " } <
-        /span>{" "} <
+        p style = {
+            {
+                float: "left",
+                paddingLeft: "5px",
+                maxWidth: "40vw",
+
+                wordBreak: "break-all",
+            }
+        } >
+        { " " } { props.description } { " " } <
+        /p>{" "} <
+        p style = {
+            { float: "right", paddingRight: "5px" } } > { props.amount } < /p>{" "} <
         /div>
     );
 }
