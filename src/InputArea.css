@@ -1,0 +1,21 @@
+.transaction {
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    width: 40vw;
+    box-shadow: 1px 1px 5px 5px rgb(194, 192, 192);
+    min-height: 10vh;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid grey;
+    box-sizing: border-box;
+}
+
+.button {
+    margin-top: 10px;
+    color: white;
+    background-color: rgb(247, 43, 121);
+    border: none;
+}
